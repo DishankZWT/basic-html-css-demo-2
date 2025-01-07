@@ -122,7 +122,7 @@ table, th, td{
     
     border: 1px solid #1f1f1f;
     border-collapse: collapse;
-    width: 80%;
+    width: 90%;
     justify-self: center;
     height: 35px;
 }
@@ -131,4 +131,18 @@ tr:hover{
     background-color: #fbbf1a;
     color: #002c46;
     text-decoration: underline;
+}
+
+.multimedia{
+    background-color: #002c46;
+}
+
+.multimedia > h1{
+    color: #fbbf1a;
+    margin: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-area: 80%;
 }
